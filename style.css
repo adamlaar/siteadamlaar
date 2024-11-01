@@ -1,0 +1,49 @@
+* {background-color:darkred}
+* {color: beige}
+* {text-align: center}
+
+.imagestext
+{
+    display:inline-block;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 40px;
+    word-wrap: break-word;
+    width: 300px;
+}
+.phases
+{
+    display:inline-block;
+    vertical-align: top;
+    line-height: 2em;
+    text-align:left;
+}
+.menu
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.break
+{
+    width:100%; 
+    height:1px; 
+    background: crimson;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.italic
+{
+    font-style:italic
+}
+#result-control, #result-combo {
+    display: none;
+}
+#control:checked ~ #result-control {
+    display: block;
+}
+#combo:checked ~ #result-combo {
+    display: block;
+}
+input[type="submit"] {
+    display: none;
+}
